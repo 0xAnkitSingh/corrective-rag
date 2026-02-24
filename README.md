@@ -31,10 +31,7 @@ The agent queries a Bedrock Knowledge Base, evaluates chunk relevance with RAGAS
 │   │   └── corrective.py           # Corrective RAG agent
 │   └── knowledge_base/
 │       └── provisioner.py          # KB creation + S3 upload + ingestion
-├── scripts/                        # Ad-hoc helper scripts
-└── notebooks/                      # Original Jupyter notebooks
-    ├── 0-prerequisites.ipynb
-    └── 1-corrective-rag-agent.ipynb
+└── onboarding_files/               # Sample documents for KB ingestion
 ```
 
 ## Prerequisites
